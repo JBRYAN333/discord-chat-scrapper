@@ -1,6 +1,6 @@
-# DW2 Lore Scraper
+# Discord Chat Scraper
 
-Ferramenta para extrair conversas do Discord do servidor Drunken Wrestlers 2 e converter em arquivos TXT para análise no NotebookLM.
+Ferramenta para extrair conversas de qualquer servidor Discord e converter em arquivos TXT para análise no NotebookLM.
 
 ## 📋 Pré-requisitos
 
@@ -11,8 +11,8 @@ Ferramenta para extrair conversas do Discord do servidor Drunken Wrestlers 2 e c
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/dw2-lore-scraper.git
-cd dw2-lore-scraper
+git clone https://github.com/seu-usuario/discord-chat-scraper.git
+cd discord-chat-scraper
 ```
 
 2. Instale as dependências Python:
@@ -82,7 +82,7 @@ Isso irá:
 ## 📁 Estrutura do Projeto
 
 ```
-dw2-lore-scraper/
+discord-chat-scraper/
 ├── scripts/
 │   ├── export_discord.bat      # Script de exportação
 │   ├── extrair_txt.py          # Converte JSON → TXT
@@ -99,14 +99,9 @@ dw2-lore-scraper/
 Edite `scripts/export_discord.bat` para ajustar:
 
 - `TOKEN`: Seu token do Discord
-- `CHANNEL_ID`: ID do canal a ser exportado
+- `CHANNEL_ID`: ID do canal a ser exportado (clique direito no canal > Copiar ID)
 - `DATA_INICIO`: Data inicial (formato: YYYY-MM-DD)
 - `DATA_FIM`: Data final (formato: YYYY-MM-DD)
-
-## 📊 IDs dos Canais DW2
-
-- Chat ENG: `465332971369660419`
-- Chat Russo: `465357353966108685`
 
 ## ⚠️ Avisos
 
@@ -119,7 +114,6 @@ Edite `scripts/export_discord.bat` para ajustar:
 
 - [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)
 - [NotebookLM](https://notebooklm.google.com/)
-- [Servidor Discord DW2](https://discord.gg/dw2)
 
 ## 📝 Licença
 

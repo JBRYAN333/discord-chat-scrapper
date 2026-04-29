@@ -2,9 +2,9 @@
 # Copie este arquivo para config.txt e preencha com seus dados
 
 TOKEN=SEU_TOKEN_AQUI
-CHANNEL_ID=465332971369660419
-DATA_INICIO=2025-03-11
-DATA_FIM=2026-04-29
+CHANNEL_ID=SEU_CHANNEL_ID_AQUI
+DATA_INICIO=2024-01-01
+DATA_FIM=2024-12-31
 
 # Como obter o token:
 # 1. Abra o Discord no navegador
@@ -12,3 +12,8 @@ DATA_FIM=2026-04-29
 # 3. Vá na aba Network
 # 4. Filtre por "messages"
 # 5. Copie o valor do header "Authorization"
+
+# Como obter o Channel ID:
+# 1. Ative o Modo Desenvolvedor no Discord (Configurações > Avançado)
+# 2. Clique com botão direito no canal desejado
+# 3. Selecione "Copiar ID"

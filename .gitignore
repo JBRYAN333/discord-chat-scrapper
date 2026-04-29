@@ -1,0 +1,21 @@
+# Arquivos de saída
+output/*.json
+output/*.txt
+output/txt_partes/
+
+# Configurações sensíveis
+config/config.txt
+scripts/exportar.bat
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db

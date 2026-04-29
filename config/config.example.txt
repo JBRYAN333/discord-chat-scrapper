@@ -1,0 +1,14 @@
+# Configuração do Discord Chat Exporter
+# Copie este arquivo para config.txt e preencha com seus dados
+
+TOKEN=SEU_TOKEN_AQUI
+CHANNEL_ID=465332971369660419
+DATA_INICIO=2025-03-11
+DATA_FIM=2026-04-29
+
+# Como obter o token:
+# 1. Abra o Discord no navegador
+# 2. Pressione F12 para abrir DevTools
+# 3. Vá na aba Network
+# 4. Filtre por "messages"
+# 5. Copie o valor do header "Authorization"
